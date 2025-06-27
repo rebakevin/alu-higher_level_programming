@@ -2,10 +2,10 @@
 
 if __name__ == "__main__":
     import sys
-    
+
     argv = sys.argv[1:]
     num_args = len(argv)
-    
+
     if num_args == 0:
         print("0 arguments.")
     elif num_args == 1:
